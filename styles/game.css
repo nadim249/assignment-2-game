@@ -156,6 +156,71 @@ border-radius: 48px;
 background: #4EC5F7;
 }
 
+/* 2nd page know more */
+
+.nd2-page{
+height: 600px;
+background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);;
+display: flex;
+justify-content: space-around;
+align-items: center;
+padding: 70px 150px;
+}
+
+.btn-know{
+    color: #FFF;
+font-size: 20px;
+font-weight: 600;
+text-transform: uppercase;
+padding: 21px 40px;
+gap: 10px;
+border-radius: 48px;
+background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+margin-left: 310px;
+
+}
+.know-more{
+    padding-right: 150px;
+}
+.know-more-pic img{
+    width: 700px;
+    height: 400px;
+    padding-right: 20px;
+
+}
+
+.know-more h2{
+    text-align: right;
+font-size: 48px;
+font-weight: 700;
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+padding-bottom: 20px;
+}
+
+.know-more .know-1{
+    color: #534C64;
+text-align: right;
+font-size: 18px;
+font-weight: 400;
+padding-bottom: 20px;
+}
+.know-2{
+    padding-top: 20px;
+    color: #534C64;
+text-align: right;
+font-size: 24px;
+font-weight: 500;
+width: 520px;
+}
+.know-2 span{
+    color: #534C64;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+}
 
 
 
