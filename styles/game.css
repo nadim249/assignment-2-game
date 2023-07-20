@@ -420,10 +420,43 @@ padding-top: 50px;
 }
     /* responsive */
     @media screen and (max-width:576px){
-        .navigation,.nav-items{
-            flex-direction: column;
-            gap: 20px;
-            background:none ;
+        header{
+            padding: 20px;
         }
-        
+                .navigation,.nav-items{
+            flex-direction: column;
+            background:none;
+            padding: 20px;
+box-shadow: none;        }
+.follow-on{
+margin-top: 50px;}
+
+.banner-font,.nd2-page{
+    flex-direction: column-reverse;
+    width: 500px;
+}
+.font-ban-pic img {
+
+    width: 400px;
+    padding-top: 50px;
+}
+.font-ban-goat ,.nd2-page{
+    margin-top: 100px;
+    width: auto;
+}
+.know-more-pic > img{
+    width: 450px;
+}
+.pic-cards{
+    grid-template-columns: repeat(1,1fr);
+}
+.overlap-write{
+    flex-direction: column;}
+.overlap-pic{
+    width: 500px;
+}
+.buttons > button {
+    flex-direction: column;
+}
+    
     }
